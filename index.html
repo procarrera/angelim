@@ -9,19 +9,26 @@
     <link rel="stylesheet" href="/css/main.css">
 
     <script type="text/javascript" src="/js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 
     <title>Angelim - sabor & bem-estar</title>
 </head>
 
 <body>
+
     <div class="container">
-        <div class="column">
-            <div class="color-col" style="background-color: #C65642;"></div>
-            <div class="color-col" style="background-color: #CA9856;"></div>
-        </div>
-        <div class="root">
-            <div class="main">
-                <section>
+
+        <div class="main">
+
+            <section>
+                <div class="column">
+                    <div class="color-col" style="background-color: #C65642;"></div>
+                    <div class="color-col" style="background-color: #CA9856;"></div>
+                </div>
+                <div class="smooth-background">
                     <nav>
                         <div class="logo">
                             <a href="">
@@ -31,44 +38,25 @@
                     </nav>
                     <div class="call-to-action">
                         <p class="first">conheça nosso cardápio, história e inspirações</p>
-                        <button onclick="scroller('teste')">
+                        <button onclick="scrollTopAnimated()">
                             <img class="pulsate-bck" src="/assets/icon/down-arrow.svg" alt="">
                         </button>
                     </div>
-                </section>
-            </div>
-            <div class="infos">
-                <p>umas informações aqui</p>
-                <p>umas informações aqui</p>
-                <p>umas informações aqui</p>
-                <p>umas informações aqui</p>
-                <p>umas informações aqui</p>
-                <p>umas informações aqui</p>
-                <p>umas informações aqui</p>
-                <p>umas informações aqui</p>
-                <p>umas informações aqui</p>
-                <p>umas informações aqui</p>
-                <p>umas informações aqui</p>
-                <p>umas informações aqui</p>
-                <p>umas informações aqui</p>
-                <p>umas informações aqui</p>
-                <p>umas informações aqui</p>
-                <p>umas informações aqui</p>
-                <p>umas informações aqui</p>
-                <p>umas informações aqui</p>
-                <p>umas informações aqui</p>
-                <p>umas informações aqui</p>
-                <p>umas informações aqui</p>
-                <p id="teste">umas informações aqui</p>
-            </div>
-        </div>
+                </div>
+                <div class="column">
+                    <div class="color-col" style="background-color: #4C6E63;"></div>
+                    <div class="color-col" style="background-color: #2F4742;"></div>
+                </div>
+            </section>
 
-        <div class="column">
-            <div class="color-col" style="background-color: #4C6E63;"></div>
-            <div class="color-col" style="background-color: #2F4742;"></div>
+            <div class="infos">
+                <div class="card">
+                    <p>umas informações aqui</p>
+                </div>
+            </div>
+
         </div>
     </div>
-
 
 </body>
 
