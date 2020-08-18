@@ -5,7 +5,25 @@ function scroller(elementID) {
   var element = document.getElementById(elementID);
   // smooth scroll to element and align it at the bottom
 
-  element.scrollIntoView({ behavior: "smooth", block: "end" });
+  element.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+function showOrHide(elementID) {
+  console.log("showOrHide: ", elementID);
+
+  const element = document.getElementById(elementID);
+
+  const buttonPlus = document.getElementById(`${elementID}-read-more`)
+  const buttonMinus = document.getElementById(`${elementID}-read-less`)
+
+  const title = document.getElementById(`${elementID}-title`)
+
+  title.classList.toggle("bold")
+  buttonPlus.classList.toggle("collapse");
+  buttonMinus.classList.toggle("collapse");
+  element.classList.toggle("collapse");
+  element.classList.toggle("slide-in-top");
+  // smooth scroll to element and align it at the bottom
+  element.parentElement.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 function scrollTopAnimated() {
@@ -29,10 +47,10 @@ function scrollTopAnimated() {
   console.log(vh);
 
   if (isMobile === true) {
-    console.log(isMobile)
-    $("html, body").animate({ scrollTop: vh + 60 }, 1200, 'easeOutQuint');
+    console.log(isMobile);
+    $("html, body").animate({ scrollTop: vh + 60 }, 1200, "easeOutQuint");
   } else {
-    console.log(isMobile)
-    $("html, body").animate({ scrollTop: vh }, 1200, 'easeOutQuint');
+    console.log(isMobile);
+    $("html, body").animate({ scrollTop: vh }, 1200, "easeOutQuint");
   }
 }

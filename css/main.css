@@ -1,9 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rosario:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&family=Rosario:wght@300;700&display=swap");
 
 .container {
   font-family: "Poppins", sans-serif;
   max-width: 100%;
   height: 100%;
+}
+
+.navigation {
+  position: fixed;
+  z-index: 99;
+  bottom: 0;
+  width: 100%;
+  background: red;
 }
 
 .main {
@@ -95,15 +105,110 @@ nav {
   }
 }
 
+/* .infos {
+  min-height: 100vh;
+  background-color: #4c6e63;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+} */
 .infos {
+  background-color: #4c6e63;
   display: grid;
   grid-template-columns: 1fr;
   gap: 14px;
 }
 
 .card {
+  padding-left: 15px;
+  padding-right: 15px;
   width: 100%;
-  background: blue;
+  color: #ffffff;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.3);
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.top:hover {
+  cursor: pointer;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 26px;
+}
+
+.plus {
+  height: 35px;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 200;
+}
+
+.text {
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 28px;
+  padding-bottom: 42px;
+}
+
+.text p {
+  margin-bottom: 25px;
+}
+.first {
+  padding-top: 25px;
+}
+
+.menu-list {
+  margin-top: 10px;
+}
+.menu-card {
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-bottom-width: 1px;
+  border-color: rgb(255, 255, 255, 0.3);
+  border-bottom-style: solid;
+  padding: 14px 0 14px 0;
+}
+.meal-header {
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+  color: #ffffff;
+}
+
+.name {
+  font-family: "Rosario", sans-serif;
+  letter-spacing: 3px;
+  font-weight: 700;
+  color: #eaad5a;
+}
+.meal-price {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #ffff;
+}
+.description {
+  text-transform: lowercase;
+  font-weight: 200;
+}
+
+.collapse {
+  display: none;
+  visibility: hidden;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 .pulsate-bck {
