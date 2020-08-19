@@ -1,7 +1,15 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 * {
   margin: 0;
   padding: 0;
   outline: 0;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -25,4 +33,8 @@ button {
   border: none;
   cursor: pointer;
   text-decoration: none;
+}
+
+a {
+  color: inherit;
 }
