@@ -149,7 +149,12 @@ nav {
   width: 65px;
 }
 
+.icons {
+  margin-top: 6px;
+}
+
 .icons img {
+  margin-right: 4px;
   width: 25px;
 }
 .row img {
@@ -317,7 +322,7 @@ nav {
 }
 
 .footer {
-  background-color: #2F4742;
+  background-color: #2f4742;
   width: 100%;
   min-height: 30px;
   display: flex;
@@ -350,7 +355,7 @@ nav {
   letter-spacing: 5px;
 }
 
-.center{
+.center {
   display: flex;
   flex-direction: row;
   justify-content: center;
