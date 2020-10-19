@@ -5,7 +5,7 @@
 <br/><br/>
 <div id="header">
         <div align="center">
-            <img id="logo" alt="Angelim" src="https://user-images.githubusercontent.com/53456120/96460527-abb18980-11f9-11eb-837a-401be165db8b.png" height="180px" />
+            <img id="logo" alt="Angelim" src="https://user-images.githubusercontent.com/53456120/96460527-abb18980-11f9-11eb-837a-401be165db8b.png" height="280px" />
     </div>
     <br/> <br/>
     <div align="center">
