@@ -37,9 +37,6 @@ Responsible template and easy navigation made with Javascript, HTML and CSS.
 <img src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
 <br/>
 <img src="https://img.shields.io/badge/RESPONSIVE-YES-brightgreen"/>
-<br/>
-<img src="https://img.shields.io/badge/REST%20API-YES-brightgreen"/>
-
 </div>
 
 <div id="demo">
