@@ -24,7 +24,7 @@
 Website made for a restaurant chain.
 Responsible template and easy navigation made with Javascript, HTML and CSS.
 </br>
-<a id="link" href="https://cozinhaangelim.com.br"> https://cozinhaangelim.com.br </a>
+<a id="link" href="https://angelim.vercel.app"> https://angelim.vercel.app </a>
 
 </div>
 
